@@ -1,0 +1,45 @@
+
+<!DOCKTYPE html>
+<html lang="ja">
+
+  <head>
+      <meta charset="utf-8">
+      <title>GestBook</title>
+      <link rel="stylesheet" href="/static/css/main.css" type="text/css"> <!-- linkタグを追加 -->
+  </head>
+  <body>
+    <h1>GestBook</h1>
+    <form action="/post" method="post">
+        <p>Please fill in here</p>
+        <table>
+          <tr>
+            <th>name</th>
+            <td>
+              <input type="text" size="20" name="name">
+            </td>
+          </tr>
+          <tr>
+            <th>comment</th>
+            <td>
+              <textarea rows="5" cols="40" name="comment"></textarea>
+            </td>
+          </tr>
+        </table>
+        <p><button type="submit">send</button></p>
+    </form>
+
+    <div class="entries-area"> <!-- divタグにclass属性を追加しとく-->
+      <h2>これまでの書き込み</h2>
+      <h3>gestの書き込み(2017/9/24 10:00:00):</h3>
+      <p>
+        書き込み内容<br>
+        書き込み内容
+      </p>
+      <h3>gestの書き込み(2017/9/24 09:00:00):</h3>
+      <p>
+        書き込み内容<br>
+        書き込み内容
+      </p>
+    </div>
+  </body>
+</html>
