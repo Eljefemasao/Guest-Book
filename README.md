@@ -2,8 +2,9 @@
 <html>
 <body>
 
-<h1>What is it?</h1>
-A gest book application. It makes your life happy.
+<h1>Overview</h1>
+Gest book application which allows to leave some messages.
+
 <h2>function</h2>
 <ul>
 	<li>Displaying a form which can contribute comments on the web browser. </li>
